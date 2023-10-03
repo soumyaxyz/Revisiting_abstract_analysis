@@ -109,8 +109,8 @@ def get_abstract(input_folder, output_folder):
 
 
 
-input_folder = "/Users/aayush/Desktop/ODU/GRA/abstractAnalysis/arxiv_final/test"
-output_folder = "/Users/aayush/Desktop/ODU/GRA/abstractAnalysis/arxiv_final/test_output"
+input_folder = "/" # Enter the location of the folder where txt files are stored
+output_folder = "/" # Enter the location of the folder where output should be stored
 
 get_abstract(input_folder, output_folder)
 
