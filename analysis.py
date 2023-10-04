@@ -1,5 +1,8 @@
 import os
 import re
+import numpy as np
+from sklearn.metrics import accuracy_score
+
 
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
@@ -82,7 +85,6 @@ def get_abstract(input_folder, output_folder):
                     elif line=="\n":
                         output_file.write("\n\n")
 
-
                     elif line.startswith("0"):
                         line = line.replace("0", "")
                         line = line.strip()
@@ -94,7 +96,6 @@ def get_abstract(input_folder, output_folder):
                         line = line.strip()
                         abstract+=line + f"\n"
                         categories_per_abstract.append("1")
-
 
                     elif line.startswith("2"):
                         line = line.replace("2", "")
@@ -112,7 +113,51 @@ def get_abstract(input_folder, output_folder):
 input_folder = "/Users/aayush/Desktop/ODU/GRA/abstractAnalysis/arxiv_final/test"
 output_folder = "/Users/aayush/Desktop/ODU/GRA/abstractAnalysis/arxiv_final/test_output"
 
-get_abstract(input_folder, output_folder)
+if os.path.exists(output_folder):
+    folder_contents = os.listdir(output_folder)
+    folder_has_files = len(folder_contents) > 0
+
+    if folder_has_files == False:
+        get_abstract(input_folder, output_folder)
+    else:
+        for filename in os.listdir(input_folder):
+            if filename.endswith(".txt"):
+                input_file_path = os.path.join(input_folder, filename)
+                
+                with open(input_file_path, 'r') as input_file:
+
+                    categories_per_abstract = []
+
+                    abstract = ""
+                    for line in input_file:
+                        line = line.strip()
+                        
+                        if line.startswith("###"):
+                            continue
+
+                        elif line.startswith("##"):
+                            continue
+
+                        elif line.startswith("#"):
+                            if categories_per_abstract:
+                                categories.append(categories_per_abstract)
+                            
+                            categories_per_abstract = []
+
+                        elif line=="\n":
+                            continue
+
+                        elif line.startswith("0"):
+                            categories_per_abstract.append("0")
+                        
+                        elif line.startswith("1"):
+                            categories_per_abstract.append("1")
+
+                        elif line.startswith("2"):
+                            categories_per_abstract.append("2")
+
+                    categories.append(categories_per_abstract)
+
 
 output_categories = []
 
@@ -149,7 +194,6 @@ def output(output_folder):
                     elif line.startswith("Technique"):
                         output_per_abstract.append('1')
 
-
                     elif line.startswith("Observation"):
                         output_per_abstract.append('2')
 
@@ -158,16 +202,10 @@ def output(output_folder):
 
 def similarity(input_list, output_list):
 
-    if len(input_list) != len(output_list) or len(input_list[0]) != len(output_list[0]):
-        return 0
+    input_flat = np.array(input_list).flatten()
+    output_flat = np.array(output_list).flatten()
 
-    total_elements = len(input_list) * len(input_list[0])
-    matching_elements = sum(1 for i in range(len(input_list))
-                             for j in range(len(input_list[0]))
-                             if input_list[i][j] == output_list[i][j])
-
-    similarity_percentage = (matching_elements / total_elements) * 100
-    
+    similarity_percentage = accuracy_score(input_flat, output_flat) * 100
     return similarity_percentage
 
 output(output_folder)
