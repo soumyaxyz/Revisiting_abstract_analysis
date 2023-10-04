@@ -1,6 +1,7 @@
 import os
 import re
 import numpy as np
+from itertools import chain
 from sklearn.metrics import accuracy_score
 
 
@@ -109,9 +110,11 @@ def get_abstract(input_folder, output_folder):
                 categories.append(categories_per_abstract)
 
 
+input_folder = "/Users/aayush/Desktop/ODU/GRA/abstractAnalysis/arxiv_final/test"
+output_folder = "/Users/aayush/Desktop/ODU/GRA/abstractAnalysis/arxiv_final/test_output"
 
-input_folder = "/" # Enter the location of the folder where txt files are stored
-output_folder = "/" # Enter the location of the folder where output should be stored
+# input_folder = "/" # Enter the location of the folder where txt files are stored
+# output_folder = "/" # Enter the location of the folder where output should be stored
 
 if os.path.exists(output_folder):
     folder_contents = os.listdir(output_folder)
@@ -202,8 +205,8 @@ def output(output_folder):
 
 def similarity(input_list, output_list):
 
-    input_flat = np.array(input_list).flatten()
-    output_flat = np.array(output_list).flatten()
+    input_flat = list(chain.from_iterable(input_list))
+    output_flat = list(chain.from_iterable(output_list))
 
     similarity_percentage = accuracy_score(input_flat, output_flat) * 100
     return similarity_percentage
