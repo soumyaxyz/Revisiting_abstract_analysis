@@ -202,8 +202,13 @@ def output(output_folder):
 
 def similarity(input_list, output_list):
 
-    input_flat = list(chain.from_iterable(input_list))
-    output_flat = list(chain.from_iterable(output_list))
+    input_flat = []
+    output_flat = []
+
+    for i in range(len(input_list)):
+        for j in range(len(input_list[i])):
+            input_flat.append(input_list[i][j])
+            output_flat.append(output_list[i][j])
 
     similarity_percentage = accuracy_score(input_flat, output_flat) * 100
     return similarity_percentage
