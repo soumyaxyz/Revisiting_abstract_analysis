@@ -110,8 +110,8 @@ def get_abstract(input_folder, output_folder):
                 categories.append(categories_per_abstract)
 
 
-input_folder = "/" # Enter the location of the folder where txt files are stored
-output_folder = "/" # Enter the location of the folder where output should be stored
+input_folder = "/Users/aayush/Desktop/ODU/GRA/Revisiting_abstract_analysis/input_folder" # Enter the location of the folder where txt files are stored
+output_folder = "/Users/aayush/Desktop/ODU/GRA/Revisiting_abstract_analysis/output_folder" # Enter the location of the folder where output should be stored
 
 if os.path.exists(output_folder):
     folder_contents = os.listdir(output_folder)
