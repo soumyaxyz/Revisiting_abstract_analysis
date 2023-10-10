@@ -713,8 +713,7 @@ Observation: This is different to the observations made with single antenna syst
 ### doi: 10.1109/TLT.2017.274196
 ## IRT-Based Adaptive Hints to Scaffold Learning in Programming
 
-Observation: Over the past few decades, many studies conducted in the field of learning science have described that scaffolding plays an important role in human learning.
-Observation: To scaffold a learner efficiently, a teacher should predict how much support a learner must have to complete tasks and then decide the optimal degree of assistance to support the learner's development.
+Observation: Over the past few decades, many studies conducted in the field of learning science have described that scaffolding plays an important role in human learning. To scaffold a learner efficiently, a teacher should predict how much support a learner must have to complete tasks and then decide the optimal degree of assistance to support the learner's development.
 Observation: Nevertheless, it is difficult to ascertain the optimal degree of assistance for learner development.
 Technique: For this study, it is assumed that optimal scaffolding is based on a probabilistic decision rule: Given a teacher's assistance to facilitate the learner development, an optimal probability exists for a learner to solve a task.
 Technique: To ascertain that optimal probability, we developed a scaffolding system that provides adaptive hints to adjust the predictive probability of the learner's successful performance to the previously determined certain value, using a probabilistic model, i.e., item response theory (IRT).

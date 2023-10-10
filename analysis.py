@@ -206,9 +206,14 @@ def similarity(input_list, output_list):
     output_flat = []
 
     for i in range(len(input_list)):
-        for j in range(len(input_list[i])):
-            input_flat.append(input_list[i][j])
-            output_flat.append(output_list[i][j])
+        if len(input_list[i]) <= len(output_list[i]):
+            for j in range(len(input_list[i])):
+                input_flat.append(input_list[i][j])
+                output_flat.append(output_list[i][j])
+        else:
+            for j in range(len(output_list[i])):
+                input_flat.append(input_list[i][j])
+                output_flat.append(output_list[i][j])
 
     similarity_percentage = accuracy_score(input_flat, output_flat) * 100
     return similarity_percentage
