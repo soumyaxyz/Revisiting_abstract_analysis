@@ -1,6 +1,7 @@
 import os
 import re
 import numpy as np
+from fuzzywuzzy import fuzz
 from itertools import chain
 from sklearn.metrics import accuracy_score
 
@@ -161,23 +162,49 @@ if os.path.exists(output_folder):
 
 output_categories = []
 
+def fuzzy_match_score(line1, line2):
+    return fuzz.ratio(line1, line2)
+
+
 def output(output_folder):
 
     for filename in os.listdir(output_folder):
         if filename.endswith(".txt"):
             output_file_path = os.path.join(output_folder, filename)
             
-            with open(output_file_path, 'r') as output_file:
+            
+            with open("/Users/aayush/Desktop/ODU/GRA/Revisiting_abstract_analysis/input_folder/arxiv_test.txt", "r") as file1, open(output_file_path, "r") as file2:
+                content1 = file1.read()
+                content2 = file2.read()
 
-                output_per_abstract = []
-                for line in output_file:
-                    line = line.strip()
+            modified_contents1 = content1.replace("\n\n\n", "\n\n")
+            modified_contents2 = content2.replace("\n\n\n", "\n\n")
 
+            with open('/Users/aayush/Desktop/ODU/GRA/Revisiting_abstract_analysis/input_folder/arxiv_test.txt', 'w') as file1, open(output_file_path, "w") as file2:
+                file1.write(modified_contents1)
+                file2.write(modified_contents2)
+
+            with open("/Users/aayush/Desktop/ODU/GRA/Revisiting_abstract_analysis/input_folder/arxiv_test.txt", "r") as file1, open(output_file_path, "r") as file2:
+                content1 = file1.readlines()
+                content2 = file2.readlines()
+
+            output_per_abstract = []
+            index1, index2 = 0, 0
+
+            while index1 < len(content1) and index2 < len(content2):
+                line1 = content1[index1]
+                line1 = line1.strip()
+                line = content2[index2]
+                line = line.strip()
+
+                score = fuzzy_match_score(line1, line)
+
+                if score >= 60:
                     if line.startswith("###"):
-                        continue
+                        pass
 
                     elif line.startswith("##"):
-                        continue
+                        pass
 
                     elif line.startswith("#"):
                         if output_per_abstract:
@@ -186,7 +213,7 @@ def output(output_folder):
                         output_per_abstract = []
 
                     elif line=="\n":
-                        continue
+                        pass
 
                     elif line.startswith("Background"):
                         output_per_abstract.append('0')
@@ -196,24 +223,21 @@ def output(output_folder):
 
                     elif line.startswith("Observation"):
                         output_per_abstract.append('2')
+                    index1 += 1
+                    index2 += 1
 
-                
-                output_categories.append(output_per_abstract)
+                else:
+                    index2 += 1
+
+            output_categories.append(output_per_abstract)
 
 def similarity(input_list, output_list):
 
     input_flat = []
     output_flat = []
 
-    for i in range(len(input_list)):
-        if len(input_list[i]) <= len(output_list[i]):
-            for j in range(len(input_list[i])):
-                input_flat.append(input_list[i][j])
-                output_flat.append(output_list[i][j])
-        else:
-            for j in range(len(output_list[i])):
-                input_flat.append(input_list[i][j])
-                output_flat.append(output_list[i][j])
+    input_flat = list(chain.from_iterable(input_list))
+    output_flat = list(chain.from_iterable(output_list))
 
     similarity_percentage = accuracy_score(input_flat, output_flat) * 100
     return similarity_percentage

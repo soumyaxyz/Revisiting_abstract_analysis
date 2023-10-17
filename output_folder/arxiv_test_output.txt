@@ -1,5 +1,3 @@
-
-
 # 126
 ### http://arxiv.org/abs/1007.5239v2
 ## TCP Reno over Adaptive CSMA
@@ -15,7 +13,6 @@ Observation: Fortunately, we find that multi-connection TCP Reno over adaptive C
 Observation: NS- simulations demonstrate that our solution can alleviate starvation and achieve fair and efficient rate allocation.
 Observation: Multi-connection TCP can be implemented at either application or transport layer.
 Observation: Application-layer implementation requires no kernel modification, making the solution readily deployable in networks running adaptive CSMA.
-
 
 # 127
 ### http://arxiv.org/abs/1212.3381v1
@@ -34,7 +31,6 @@ Observation: We also analyze the pricing effect on the equilibrium behaviors of 
 Observation: In the third duopoly market, we study a price competition between two operators employing shared-use and exclusive-use DSA, respectively, as a two-stage Stackelberg game.
 Technique: Using a backward induction method, we show that there exists a unique equilibrium for this game and investigate the equilibrium convergence.
 
-
 # 128
 ### http://arxiv.org/abs/1407.2125v2
 ## Noisy Distance Measurements Using 3-D Localization with Rb-Rf Methods
@@ -52,7 +48,6 @@ Observation: We also have depicted the effect of scalability on the performance 
 Observation: Results show that as the scalability of the network increases with the number of beacon nodes; the performance of the algorithm goes high above 90 percent .
 Observation: The granularity of the areas estimated may be easily adjusted by changing the system parameters which makes the proposed algorithm flexible.
 
-
 # 129
 ### http://arxiv.org/abs/1407.5385v1
 ## Nontransitive Ranking to Enhance Routing Decision in MANETS
@@ -69,9 +64,7 @@ Technique: The pairwise comparisons of each route with others give more accurate
 Observation: The proposed ranking is easier than classical ranking in which metrics have assigned some value and these values are combined to obtain the ranking.
 Observation: Experimental result shows the efficiency of the proposed model.
 
-
 # Keywords: Fuzzy, Rank, Nontransitive, Route, Ranking, Relativity
-
 
 # 130
 ### http://arxiv.org/abs/0801.4054v2
@@ -90,7 +83,6 @@ Technique: Specifically, we propose a quantitative definition for starvation and
 Observation: Finally, we show that when mean delay is large and starvation occurs, the performance results obtained from simulation experiments may not converge.
 Observation: A quantitative discussion of this issue is provided in this paper.
 
-
 # 131
 ### http://arxiv.org/abs/1508.05017v3
 ## On the Packet Allocation of Multi-Band Aggregation Wireless Networks
@@ -108,7 +100,6 @@ Technique: It includes functional description, discovery and association process
 Observation: We finally present simulation results for a multi-band WLAN system.
 Observation: It shows the performance gains of the proposed OMMA Leaky Bucket scheme in comparison to other existing packet scheduling mechanisms.
 
-
 # 132
 ### http://arxiv.org/abs/1512.02594v1
 ## Suporte à Mobilidade em Redes Mesh Sem Fio: estratégias comuns versus SDN
@@ -120,7 +111,6 @@ Background: Therefore, it is important to evaluate the benefits and impacts of e
 Technique: In this paper, we propose a simplified implementation of mobility support in OpenWiMesh and evaluate its performance compared to other protocols, using differents mobility and data traffic models.
 Observation: The chosen metrics are based on packet loss, occupation of the links with control traffic and delay.
 Observation: Simulated results show that the SDN approach perform better than the classic protocols, beyond flexibility and programmability of SDN itself.
-
 
 # 133
 ### http://arxiv.org/abs/1512.03770v2
@@ -139,7 +129,6 @@ Background: As it is quite challenging to formulate a flexibility measure that c
 Observation: Our initial selection is backed up by an analysis of Software Defined Networking, Network Virtualization and Network Function Virtualization for their support of the selected flexibility aspects.
 Technique: Our research methodology is based on a systematic approach that leads to network design guidelines with respect to flexibility.
 
-
 # 134
 ### http://arxiv.org/abs/1602.00097v1
 ## Dynamic Virtual Machine Management via Approximate Markov Decision Process
@@ -157,7 +146,6 @@ Observation: Moreover, MadVM can be implemented in a distributed system, which s
 Observation: Extensive simulations based on two real-world workload traces show that MadVM achieves significant performance gains over two existing baseline approaches in power consumption, resource shortage and the number of VM migrations.
 Observation: Specifically, the more intensely the resource demands fluctuate, the more MadVM outperforms.
 
-
 # 135
 ### http://arxiv.org/abs/1602.02091v1
 ## Towards Innovative Physical Layer Design for Mobile WSN Platforms
@@ -167,7 +155,6 @@ Observation: This kind of stringent communication capability in the face of vola
 Technique: The dimension of the antenna is 3x35x1.6 mm^3.
 Observation: Multiplicity of bands is very useful for compatibility purposes where legacy robotic platforms generally operate in MHz range while latest robotic platforms are capable to handle GHz communication regimes and can pump data very at much greater speeds.
 Observation: Seven frequency bands are obtained at 700 MHz, .4 GHz, 3.6 GHz, 4.37 GHz, 5.8 GHz, 6.93 GHz and 7.7 GHz with bandwidth of 1.1 GHz, 0.7 GHz, 0.8 GHz, 0.3 GHz, 0.90 GHz, 0.19 GHz and 0.1 GHz respectively.
-
 
 # 151
 ### http://arxiv.org/abs/1009.1604v1
@@ -183,7 +170,6 @@ Background: Our approach is useful for applications that require minimal end-to-
 Observation: DynaChannAl is a lightweight and highly adoptable scheme that can be easily incorporated with various pre-developed components and pre-deployed applications.
 Observation: We evaluate DynaChannAl on a 45 node WSN testbed.
 Technique: As the first study to consider end-to-end latency as the core metric for channel allocation in WSN systems, the experimental results indicate that DynaChannAl successfully distributes multiple (mobile) source nodes on different wireless channels and enables the nodes to select wireless channel and links that can minimize the end-to-end latency.
-
 
 # 152
 ### http://arxiv.org/abs/1009.3415v1
@@ -203,7 +189,6 @@ Observation: For example, given a CSMA network, we can determine whether it suff
 Observation: Furthermore, the likelihood and durations of temporal starvation can also be computed.
 Observation: We believe that the ability to identify and characterize temporal starvation as established in this paper will serve as an important first step toward the design of effective remedies for it.
 
-
 # 153
 ### http://arxiv.org/abs/1009.4563v1
 ## A Cluster Based Replication Architecture for Load Balancing in Peer-to-Peer Content Distribution
@@ -222,7 +207,6 @@ Technique: In the intelligent replica placement technique, peers are grouped int
 Technique: In order to achieve complete load balancing across the system, intracluster and inter-cluster load balancing algorithms are proposed.
 Observation: We are able to show that our proposed architecture attains less latency and better throughput with reduced bandwidth usage, through the simulation results.
 
-
 # 154
 ### http://arxiv.org/abs/1107.1633v1
 ## Throughput Computation in CSMA Wireless Networks with Collision Effects
@@ -239,7 +223,6 @@ Technique: We show that link throughputs and collision probability can be comput
 Observation: Simulation results validate GICN's accuracy.
 Observation: Interestingly, we also find that the original ICN model yields fairly accurate results despite the fact that collisions are not modeled.
 
-
 # 155
 ### http://arxiv.org/abs/1107.5468v1
 ## Measuring Pulsed Interference in 802.11 Links
@@ -251,7 +234,6 @@ Observation: When the intervals between interference pulses are i.i.d., the appr
 Technique: The approach is a transmitter-side technique that provides per-link information and is compatible with standard hardware.
 Observation: We demonstrate the effectiveness of the proposed approach using extensive experimental measurements.
 Observation: In addition to applications to monitoring, management, and diagnostics, the fundamental information provided by our approach can potentially be used to adapt the frame durations used in a network so as to increase capacity in the presence of pulsed interference.
-
 
 # 156
 ### http://arxiv.org/abs/1209.2154v1
@@ -271,7 +253,6 @@ Observation: We further argue that addressing the technical challenges we face i
 Background: In support of our argument, we present a set of real-world scenarios, inspired by realistic settings in commercial telecommunications networks, focusing on spectrum sensing as a basic and critical functionality in the deployment of CRs.
 Observation: We use these scenarios to show why existing DSA paradigms are not amenable to realistic deployment in complex wireless environments.
 
-
 # 157
 ### http://arxiv.org/abs/1302.4720v1
 ## Multiple Target Tracking with RF Sensor Networks
@@ -285,7 +266,6 @@ Technique: We describe methods to adapt machine vision methods to the peculiarit
 Observation: Several tests are performed in an open environment, a one-bedroom apartment, and a cluttered office environment.
 Observation: The results demonstrate that the system is capable of accurately tracking in real-time up to 4 targets in cluttered indoor environments, even when their trajectories intersect multiple times, without mis-estimating the number of targets found in the monitored area.
 Observation: The highest average tracking error measured in the tests is 0.45 m with two targets, 0.46 m with three targets, and 0.55 m with four targets.
-
 
 # 158
 ### http://arxiv.org/abs/1302.7028v1
@@ -304,7 +284,6 @@ Background: This initiates the study of a class of robust network design (RND) p
 Observation: Our empirical analysis is based on a heuristic for this new hierarchical RND problem.
 Observation: We also propose that it is possible to define a routing indicator that accounts for the strengths of the marginals and peak demands and use this information to choose the appropriate routing template.
 Observation: We benchmark our approach against other well-known routing templates, using representative carrier networks and a variety of different capped hose traffic demands, parameterized by the relative importance of their marginals as opposed to their point-to-point peak demands.
-
 
 # 159
 ### http://arxiv.org/abs/1302.7289v2
@@ -327,7 +306,6 @@ Observation: Simulation results are consistent with the proposed analytical lowe
 Observation: Upper bound performance depends on the ratio of communication and sensing radii.
 Observation: Simulations also show that the algorithm can localize about 99% coverage holes in about 99% cases.
 
-
 # 160
 ### http://arxiv.org/abs/1409.1177v2
 ## A New IEEE 802.15.4 Simulation Model for OMNeT++ / INET
@@ -336,7 +314,6 @@ Observation: This paper introduces a new IEEE 802.5.4 simulation model for OMNeT
 Background: 82.15.4 is an important underlying standard for wireless sensor networks and Internet of Things scenarios.
 Technique: The presented implementation is designed to be compatible with OMNeT++ 4.x and INET .x and laid-out to be expandable for newer revisions of the 80.15.4 standard.
 Observation: The source code is available online https://github.com/michaelkirsche/IEEE80154INET-Standalone
-
 
 # 161
 ### http://arxiv.org/abs/1409.8267v1
@@ -357,7 +334,6 @@ Observation: The NUA traffic load balancing scheme allows dynamically adjusting 
 Observation: We have proved the convergence and the optimality of the proposed NUA traffic load balancing scheme.
 Observation: Through extensive simulations, we have compared performance of the NUA traffic load balancing scheme with other schemes and showed its advantages in backhaul-constrained cache-enabled small cell networks with hybrid power supplies.
 
-
 # 162
 ### http://arxiv.org/abs/1410.0336v1
 ## Cross-Layer Extended Persistent Timeout Policy for SCTP and DSDV
@@ -375,7 +351,6 @@ Background: Section II of this paper presents an overview of the Stream Control 
 Background: Section III describes the behavior of the DSDV protocol.
 Background: Section IV presents the extended persistent timeout policy principle.
 Background: Section V presents the simulation results used to compare the using of the traditional and the extended persistent timeout policies applied to the same protocol stack using SCTP and DSDV.
-
 
 # 163
 ### http://arxiv.org/abs/1410.0337v1
@@ -395,7 +370,6 @@ Background: Section III is related to the overview of the OLSR protocol.
 Technique: Section IV is used for the application of the RCL method and the different interaction arrays it generates.
 Observation: Section V presents the improvement of the environment subsystem and the definition of the performance gain of each Cross Layer Atomic Action (CLAA).
 
-
 # 164
 ### http://arxiv.org/abs/1410.3978v1
 ## Technical Report: A Methodology for Studying 802.11p VANET Broadcasting Performance with Practical Vehicle Distribution
@@ -409,7 +383,6 @@ Technique: Corresponding 802.p protocol and performance models are then develope
 Technique: When coupled with the traffic models, they can predict broadcasting efficiency, delay, as well as throughput performance of 802.p VANETs based on the knowledge of car density at each location on the road.
 Technique: Extensive simulation is conducted to verify the accuracy of the developed mathematical models with the consideration of vehicle interaction.
 Observation: In general, our results demonstrate the applicability of the proposed methodology on modeling protocol performance in practical signalized road networks, and shed insights into the design and development of future communication protocols and networking functions for VANETs.
-
 
 # 165
 ### http://arxiv.org/abs/1501.01657v1
@@ -427,7 +400,6 @@ Technique: Considering energy consumption and delay as the initial performance c
 Observation: The results extracted from CPF are the same as the well-known rule of thumb for the MAC protocols that verifies our model.
 Observation: We validate our models with the help of simulation study.
 Observation: We also implemented the current CPF model in a web page to make the model online and useful.
-
 
 # 61
 ### http://arxiv.org/abs/1105.4261v1
@@ -447,7 +419,6 @@ Observation: Our recent results suggest, however, that PNC may actually benefit 
 Technique: Fourth, we propose that PNC is not just for wireless networks; it can also be useful in optical networks.
 Observation: We provide an example showing that the throughput of a passive optical network (PON) could potentially be raised by 00% with PNC.
 
-
 # 62
 ### http://arxiv.org/abs/1105.6024v1
 ## Optimum Sleep-Wake Scheduling of Sensors for Quickest Event Detection in Small Extent Wireless Sensor Networks
@@ -466,7 +437,6 @@ Observation: Also, we show that the optimal stopping rule is a threshold rule on
 Observation: The optimal policy for M_(k+1) can keep very few sensors wake during the prechange phase and then quickly increase the number of sensors in the wake state when a change is "suspected".
 Observation: Among the three sleep-wake algorithms described, we observe that the total cost is minimum for the optimum control of M_(k+1) and is maximum for the optimum control on q.
 
-
 # 63
 ### http://arxiv.org/abs/1108.2606v1
 ## Tensor-Based Link Prediction in Intermittently Connected Wireless Networks
@@ -483,7 +453,6 @@ Observation: Through several simulations, we demonstrate the effectiveness of th
 Observation: The validity of this method is proven when the computation of score is made in a distributed way (i.e. with local information).
 Observation: We attest that the tensor-based technique is effective for temporal link prediction applied to the intermittently connected networks.
 Observation: Furthermore, we think that this technique can go beyond the realm of DTN and we believe this can be further applied on every case of figure in which there is a need to derive the underlying social structure of a network of mobile users.
-
 
 # 64
 ### http://arxiv.org/abs/1108.2776v1
@@ -503,7 +472,6 @@ Observation: The base stations may be stationary or mobile.
 Observation: VASNET provides capability of wireless communication between vehicular nodes and stationary nodes, to increase safety and comfort for vehicles on the highway roads.
 Background: In this paper we explain main fundamentals and challenges of VASNET.
 
-
 # 65
 ### http://arxiv.org/abs/1108.5494v1
 ## Geographic Trough Filling for Internet Datacenters
@@ -521,7 +489,6 @@ Technique: In both schemes, energy cost saving comes from dynamic speed scaling,
 Technique: In addition, good delay performance is achieved in the queue-based scheme via load shifting and capacity allocation based on queue conditions.
 Technique: Practical issues that may arise in datacenter networks are considered, including capacity and bandwidth constraint, service agility constraint, and load shifting cost.
 Observation: We use both artificial and real datacenter traces to evaluate the proposed schemes.
-
 
 # 66
 ### http://arxiv.org/abs/1109.1147v1
@@ -541,7 +508,6 @@ Technique: The advantage of this distributed knowledge is that, it avoids making
 Technique: The set of SSP improves the robustness in queries routing mechanism, and the scalability in PP Network.
 Observation: Compared with a baseline approach,the proposal architecture shows the effect of the data mining with better performance in respect to response time and precision.
 
-
 # 67
 ### http://arxiv.org/abs/1109.4306v2
 ## Enabling Adaptive Rate and Relay Selection for 802.11 Mobile Ad Hoc Networks
@@ -557,7 +523,6 @@ Technique: Moreover, for an 802. network that employs geographic opportunistic r
 Technique: This method exploits channel reciprocity and fading prediction and does not require significant modification to the existing 802. frame structure.
 Observation: Extensive network simulations demonstrate that the proposed approach significantly improves the throughput, delay, and packet delivery ratio for high mobile velocities relative to previously proposed approaches that employ outdated CSI at the transmitter.
 
-
 # 68
 ### http://arxiv.org/abs/1110.2270v1
 ## Noise Analysis and Detection Based on RF Energy Duration in wireless LAN
@@ -571,7 +536,6 @@ Background: However, in 82.11 WLAN, a station cannot know the cause of a transmi
 Observation: For this reason, they may behave erroneously in a real world where transmission failures occur by both causes.
 Technique: In this paper, we propose a novel scheme to detect collision, which utilizes transmission time information and RF energy duration on the channel.
 Technique: By detecting collisions, a station can differentiate the causes of transmission failures and the adaptive schemes can operate correctly by using the detection information.
-
 
 # 69
 ### http://arxiv.org/abs/1110.3425v1
@@ -587,7 +551,6 @@ Technique: To evaluate our proposed system, we implemented CellSense on Android-
 Observation: Results from two different testbeds, representing urban and rural environments, for three different cellular providers show that CellSense provides at least 108.57% enhancement in accuracy in rural areas and at least 89.03% in urban areas compared to the current state of the art RSSI-based GSM localization systems.
 Observation: In addition, the proposed hybrid technique provides more than 6 times and 5.4 times reduction in computational requirements compared to the state of the art RSSI-based GSM localization systems for the rural and urban testbeds, respectively.
 Observation: We also evaluate the effect of changing the different system parameters on the accuracy-complexity tradeoff and how the cell tower density and fingerprint density affect the system performance.
-
 
 # 70
 ### http://arxiv.org/abs/1110.3579v1
@@ -611,7 +574,6 @@ Observation: We focus on the network delay bound and packet losses.
 Technique: This approach is based on the Network Calculus theory, a mathematical model to represent the data flows behavior between IPs interconnected over NoC.
 Technique: We propose an approach of QoS-metric based on QoS-parameter prioritization factors for multi applications-service using calculus model.
 
-
 # 71
 ### http://arxiv.org/abs/1111.2619v1
 ## A Security Architecture for Data Aggregation and Access Control in Smart Grids
@@ -633,7 +595,6 @@ Observation: Our access control scheme is collusion resistant, meaning that user
 Observation: We theoretically analyze our schemes and show that the computation overheads are low enough to be carried out in smart grids.
 Observation: To the best of our knowledge, ours is the first work on smart grids, which integrates these two important security components (privacy preserving data aggregation and access control) and presents an overall security architecture in smart grids.
 
-
 # 72
 ### http://arxiv.org/abs/1112.0097v1
 ## 1-D Coordinate Based on Local Information for MAC and Routing Issues in WSNs
@@ -650,7 +611,6 @@ Observation: The main advantage of this system is that the hops number of a pack
 Observation: Nevertheless, it does not allow to differentiate the nodes with the same hop-count.
 Observation: In this report we propose a novel hop-count-based VCS which aims at classifying the nodes having the same hop-count depending on their connectivity and at differentiating nodes in a 2-hop neighborhood.
 Observation: Those properties make the coordinates, which also can be viewed as a local identifier, a very powerful metric which can be used in WSNs mechanisms.
-
 
 # 73
 ### http://arxiv.org/abs/1112.1480v1
@@ -674,7 +634,6 @@ Observation: Finally, two practical cases are put forward to gain a partial know
 Observation: The brief method in dealing with mountains is classified discussion in two ideal conditions.
 Observation: It may provide some constructive suggestions to avoid shortcomings or take proper measures in similar locations.
 
-
 # 74
 ### http://arxiv.org/abs/1112.4955v2
 ## Coded Path Protection: Efficient Conversion of Sharing to Coding
@@ -694,7 +653,6 @@ Observation: CPP incurs marginal extra capacity on top of SPP.
 Observation: Its capacity efficiency is lower than the p-cycle technique for dense networks but can be higher for sparse networks.
 Background: In addition, unlike p-cycle protection, CPP is inherently suitable for the wavelength continuity constraint in optical networks.
 
-
 # 75
 ### http://arxiv.org/abs/1203.2041v1
 ## Towards MAC/Anycast Diversity in IEEE 802.11n MIMO Networks
@@ -708,19 +666,18 @@ Observation: We experimented with an IEEE 802.n indoor testbed and analyzed the 
 Observation: Our experiment results show negligible MAC diversity gains for both interference-prone .4 GHz and interference-free 5 GHz channels when using 80.11n.
 Observation: This is different to the observations made with single antenna systems based on 80.11b/g, as well as in initial studies with 80.11n.
 
-
 # 1
 ### doi: 10.1109/TLT.2017.274196
 ## IRT-Based Adaptive Hints to Scaffold Learning in Programming
 
-Observation: Over the past few decades, many studies conducted in the field of learning science have described that scaffolding plays an important role in human learning. To scaffold a learner efficiently, a teacher should predict how much support a learner must have to complete tasks and then decide the optimal degree of assistance to support the learner's development.
+Observation: Over the past few decades, many studies conducted in the field of learning science have described that scaffolding plays an important role in human learning.
+Observation: To scaffold a learner efficiently, a teacher should predict how much support a learner must have to complete tasks and then decide the optimal degree of assistance to support the learner's development.
 Observation: Nevertheless, it is difficult to ascertain the optimal degree of assistance for learner development.
 Technique: For this study, it is assumed that optimal scaffolding is based on a probabilistic decision rule: Given a teacher's assistance to facilitate the learner development, an optimal probability exists for a learner to solve a task.
 Technique: To ascertain that optimal probability, we developed a scaffolding system that provides adaptive hints to adjust the predictive probability of the learner's successful performance to the previously determined certain value, using a probabilistic model, i.e., item response theory (IRT).
 Observation: Furthermore, using the scaffolding system, we compared learning performances by changing the predictive probability.
 Observation: Results show that scaffolding to achieve 0.5 learner success probability provides the best performance.
 Observation: Additionally, results demonstrate that a scaffolding system providing 0.5 probability decreases the number of hints (amount of support) automatically as a fading function according to the learner's growth capability.
-
 
 # 2
 ### doi: 10.1109/TLT.2017.274370
@@ -733,7 +690,6 @@ Technique: We describe a method for automatically extracting rewrite rules from 
 Technique: We used these methods to automatically provide hints in a web application for learning programming.
 Observation: In-class evaluation showed that students receiving automatic feedback solved problems faster and submitted fewer incorrect programs.
 Background: We believe that rewrite rules provide a good basis for further research into how humans write and debug programs.
-
 
 # 3
 ### doi: 10.1109/TLT.2017.278775
@@ -753,7 +709,6 @@ Technique: Using this framework, a black box and white box approach are compared
 Observation: The evaluation focuses on technical capabilities and development possibilities.
 Technique: A set of four experiments are also analysed to illustrate the utility of the framework in creating and improving experiments with respect to their RLMS.
 
-
 # 4
 ### doi: 10.1109/TLT.2017.276622
 ## Understanding Learning Resources Metadata for Primary and Secondary Education
@@ -768,7 +723,6 @@ Technique: Probabilistic model-based (PMB) techniques, on the other hand, make i
 Background: In this paper, we used recommender systems and PMB techniques to analyze a dataset produced by primary and secondary level teachers over the course of four years and under natural conditions.
 Observation: We found that a hybrid recommendation, the Collaborative Topic Regression (CTR) technique, performs better than other approaches despite the high sparseness of the dataset.
 Observation: In addition, learning resources annotated with curriculum metadata had a positive impact on recommender's accuracy whereas free-text or other metadata negatively impacted the results.
-
 
 # 5
 ### doi: 10.1109/TLT.2017.276359
@@ -785,7 +739,6 @@ Observation: Adaptation of contents made students increase their learning gains 
 Observation: Pairings were seen as with students of similar levels.
 Observation: And final scores were moderately fair: while the order tends to be similar as compared to the results in the post-test, students grades with high performance tend to be lower in the competition environment.
 
-
 # 6
 ### doi: 10.1109/TLT.2018.285680
 ## Blending Digital and Face-to-Face Interaction Using a Co-Located Social Media App in Class
@@ -797,7 +750,6 @@ Observation: In a nutshell, SpeakUp allows the creation of temporary location-bo
 Observation: We find that the use of co-located social media is associated with an increase in content-related interaction in the class.
 Observation: Furthermore, it is associated with an increase in the perceived learning outcomes of students compared to a control group.
 Observation: We further provide design guidelines to blend digital and ff interaction using co-located social media in the classroom based on 11 case studies covering over ,000 students.
-
 
 # 7
 ### doi: 10.1109/TLT.2017.278886
@@ -812,7 +764,6 @@ Observation: To test both tools, we have performed two evaluations.
 Observation: One with teachers to test the authoring tools and a second one with primary school students to test if the activities designed with this tool enhance their learning process.
 Observation: Results show that DEDOS-Editor is an easy to learn authoring tool which helps teachers to complement their learning methods while DEDOS-Web is flexible enough to create several learning scenarios from just one set of activities, factors which lead to achieving positive learning outcomes.
 
-
 # 8
 ### doi: 10.1109/TLT.2018.280849
 ## Game of Blazons: Helping Teachers Conduct Learning Situations That Integrate Web Tools and Multiple Types of Augmented Reality
@@ -823,7 +774,6 @@ Background: These constraints limit the possible range of activities that can be
 Technique: GLUEPS-AR is a system that can help overcome these limitations, aiding teachers in the creation and enactment of learning situations that may combine multiple types of AR with other common web tools.
 Observation: This paper presents an evaluation study conducted on Game of Blazons, a learning situation carried out by two university teachers using GLUEPS-AR, and framed within two days of outdoor activities in a village in Spain.
 Observation: The evaluation showed that GLUEPS-AR provided an affordable support to the participant teachers to integrate several activities that made use of multiple types of AR, common web tools, and augmented paper, into a unique learning situation.
-
 
 # 9
 ### doi: 10.1109/TLT.2017.277225
@@ -843,7 +793,6 @@ Observation: Through depth-based body posture tracking, proper greeting behavior
 Technique: Novel computational multimedia tools are proposed to turn video recordings of successful attempts into VSM content, thereby alleviating the tedious production process.
 Observation: A multiple-baseline single subject pilot study has been conducted and the preliminary results show that MEBook is potentially effective in teaching greeting behaviors to children with ASD.
 
-
 # 10
 ### doi: 10.1109/TLT.2017.277350
 ## Educational Functions and Design of Badge Systems: A Conceptual Literature Review
@@ -852,7 +801,6 @@ Observation: In today's technological era, emerging educational technologies, su
 Background: To examine the major considerations undergirding the design of digital badges used in an educational context, a conceptual literature review of multidisciplinary electronic databases oriented towards computing and education was undertaken.
 Observation: The three core design dimensions found in our analysis were the specific function of badges, the structure of badge systems, and the different types of design and interaction features used with badges.
 Observation: We highlight the main effects of studies addressing these dimensions and provide recommendations and suggestions for further research to educational stakeholders who seek to better understand how to implement badges within their own institutions.
-
 
 # 11
 ### doi: 10.1109/TLT.2018.281019
@@ -864,7 +812,6 @@ Observation: The system is intended to engage students in reflective reporting o
 Background: DEFT was developed through an iterative design and evaluation process, involving 85 students and 8 instructors at two universities.
 Technique: The system was evaluated using a combination of participation observation, user interviews, and anonymous questionnaires, and the results guided subsequent improvements to the system.
 Background: This article describes the development and evaluation process, provides an overview of the resulting system, and ends by discussing the potential for DEFT to be used in evaluating and improving project-based design classes.
-
 
 # 12
 ### doi: 10.1109/TLT.2018.285375
@@ -878,7 +825,6 @@ Observation: The results revealed that the EG students performed significantly b
 Observation: We found that geometry estimation ability is significantly related to spatial ability and geometry learning achievement, which means fostering estimation ability through measuring authentic objects could help students to learn geometry.
 Observation: Finally, students perceived that UG engaged them more in geometry and improved their interest in learning because the activity designs related more to their daily life, thereby enhancing their sense of confidence and satisfaction.
 Observation: Conclusions include that UG effectively enhances student geometry estimation ability, geometry learning achievement, spatial ability, and understanding of geometric concepts.
-
 
 # 13
 ### doi: 10.1109/TLT.2018.285877
@@ -896,7 +842,6 @@ Observation: Based on the research results, we propose a taxonomy for sustainabi
 Observation: We also analyze design strategies, drawn from the literature, expressly conceived for the development of effective sustainability serious games.
 Observation: Finally, we discuss the current challenges and present possible areas of research in this field.
 
-
 # 14
 ### doi: 10.1109/TLT.2019.292672
 ## Collaborative Educational Environments Incorporating Mixed Reality Technologies: A Systematic Mapping Study
@@ -909,7 +854,6 @@ Observation: Results highlighted the lack of research across the mixed reality s
 Observation: Furthermore, the difficulty of teaching professionals to replicate mixed reality experiments in real environments, due to the technical skills required, was identified.
 Observation: The main contribution of this paper is the discussion of the current works with visualization of the present state of the area, which is aimed to encourage educators to develop mixed reality artefacts and conduct further research to support collaborative educational environments.
 
-
 # 15
 ### doi: 10.1109/TLT.2018.285879
 ## Exploring Student Interactions With Preparation Activities in a Flipped Classroom Experience
@@ -920,7 +864,6 @@ Background: Despite the comprehensive data collection enabled by the increasing 
 Technique: This study addresses this deficit by proposing an analytical approach that allows for exploring, first, the strategies students use to interact with online preparation activities; and, second, evolution of those strategies over the duration of a course delivered with a FC pedagogy.
 Observation: The proposed approach identified eight learning strategies and six trajectories of strategy change over the duration of the course.
 Observation: The study found statistically significant effects of strategy change trajectories on academic performance.
-
 
 # 16
 ### doi: 10.1109/TLT.2018.285158
@@ -938,7 +881,6 @@ Observation: Additionally, teachers who consulted the dashboard more often activ
 Observation: These results indicated that teacher dashboards were indeed influencing teachers’ pedagogical actions in their daily classroom activities.
 Observation: This study provided the first evidence that dashboards progressively impact teaching practice and initiate more profound behavioral changes as teachers become more proficient in using them.
 
-
 # 17
 ### doi: 10.1109/TLT.2018.283311
 ## Inquiry-Based Learning With RoboGen: An Open-Source Software and Hardware Platform for Robotics and Artificial Intelligence
@@ -949,7 +891,6 @@ Observation: Robotics applications are especially well-suited for IBL due to the
 Observation: Furthermore, robotics platforms can be useful teaching media and learning tools for a variety of topics.
 Background: Here, we present RoboGen: an open-source, web-based, software, and hardware platform for Robotics and Artificial Intelligence with a particular focus on Evolutionary Robotics.
 Technique: We describe the platform in detail, compare it to existing alternatives, and present results of its use as a platform for Inquiry-based learning within a master's level course at the Ecole Polytechnique Fédérale de Lausanne.
-
 
 # 18
 ### doi: 10.1109/TLT.2018.284071
@@ -965,7 +906,6 @@ Technique: We have evaluated the application in-the-wild in corporate environmen
 Technique: Users were subjected to three different conditions: no triggering, simple regular triggering, and adaptive triggering.
 Observation: The results show that the use of adaptive triggering in m-learning increases user engagement as well as course completion rates more than simple regular triggering and no triggering.
 
-
 # 19
 ### doi: 10.1109/TLT.2018.285680
 ## Prediction in MOOCs: A Review and Future Research Directions
@@ -976,7 +916,6 @@ Observation: Results show there is strong interest in predicting dropouts in MOO
 Observation: A variety of predictive models are used, though regression and support vector machines stand out.
 Observation: There is also wide variety in the choice of prediction features, but clickstream data about platform use stands out.
 Observation: Future research should focus on developing and applying predictive models that can be used in more heterogeneous contexts (in terms of platforms, thematic areas, and course durations), on predicting new outcomes and making connections among them (e.g., predicting learners’ expectancies), on enhancing the predictive power of current models by improving algorithms or adding novel higher-order features (e.g., efficiency, constancy, etc.
-
 
 # 20
 ### doi: 10.1109/TLT.2018.286174
@@ -990,7 +929,6 @@ Observation: Results show that Airmap is successful in reducing cognitive load w
 Observation: However, there is a significant difference in performance after a two week retention period.
 Observation: Results give new insight into the retention enhancing aspects of building closed concept maps, indicating that the cognitive load reduced by the new interface is of the germane type, affecting how deep in memory users commit the information.
 
-
 # 21
 ### doi: 10.1109/TLT.2018.285930
 ## Systematic Review of Discussion Forums in Massive Open Online Courses (MOOCs)
@@ -1002,7 +940,6 @@ Technique: The descriptive analysis aggregates the reviewed papers into five dim
 Technique: The content analysis aims to highlight the main issues addressed and the major contributions of the papers covered by the literature review.
 Observation: These contributions can be categorized into three major areas, first, explore the relationship between forums participation and retention or learning outcomes and evaluate ways to increase the participation activity and learning outcomes, second, analyze participants’ contribution in the forum and how to organize the content and efficiently monitor them, finally, analyze participants’ interactions and how it influences learning.
 Observation: At the end, we offer some suggestions to further advance this area of research.
-
 
 # 22
 ### doi: 10.1109/TLT.2018.286541
@@ -1017,7 +954,6 @@ Observation: Additionally, the results show significant differences in variance 
 Observation: These findings contribute to the current understanding of content development methods with respect to Cultural Training Serious Games.
 Observation: These findings warrant further investigation to understand the significance to other cultural training applications.
 
-
 # 23
 ### doi: 10.1109/TLT.2017.271416
 ## Understanding the Role of Micro-Blogging in B-Learning Activities: Kelluwen Experiences in Chilean Public Schools
@@ -1029,7 +965,6 @@ Technique: We first used machine learning techniques to discover three types of 
 Technique: We then analyze how different factors of the cohort and group setup relate to the presence of different dialogic functions in Worklog.
 Observation: Results show the positive effect of pairing groups of students from different schools, and the positive influence of teacher participation.
 Observation: Our work contributes to the discussion on the role of technological social tools on the implementation of complex b-learning activities in schools, as well as demonstrating how automatic and semi-automatic data analysis techniques can be used to better understand such complex interventions.
-
 
 # 24
 ### doi: 10.1109/TLT.2017.273234
@@ -1046,7 +981,6 @@ Observation: Our findings suggest that user-centric evaluation results are not n
 Observation: We conclude that the traditional evaluation of recommender systems in terms of prediction accuracy only does not suffice to judge performance of recommender systems on the user side.
 Observation: Moreover, the user-centric evaluation provides valuable insights in how candidate algorithms perform on each of the five quality metrics for recommendations: usefulness, accuracy, novelty, diversity, and serendipity.
 
-
 # 25
 ### doi: 10.1109/TLT.2017.272241
 ## Supporting Student Engagement Through Explorable Visual Narratives
@@ -1060,7 +994,6 @@ Observation: In addition, visual data exploration can support users in understan
 Background: However, in OLEs, explorable visual narratives have not been used to date to support student engagement or to guide learners through a message that they could explore and understand.
 Observation: This paper evaluates the impact that explorable visual narratives had on student course engagement during two successive academic years.
 
-
 # 26
 ### doi: 10.1109/TLT.2017.272338
 ## Jutge.org: Characteristics and Experiences
@@ -1069,7 +1002,6 @@ Background: Jutge.org is an open educational online programming judge designed f
 Technique: Internally, Jutge.org uses a secure and efficient architecture and integrates modern verification techniques, formal methods, static code analysis, and data mining.
 Observation: Jutge.org has exhaustively been used during the last decade at the Universitat Politècnica de Catalunya to strengthen the learning-by-doing approach in several courses.
 Observation: This paper presents the main characteristics of Jutge.org and shows its use and impact on a wide range of courses covering basic programming, data structures, algorithms, artificial intelligence, functional programming, and circuit design.
-
 
 # 27
 ### doi: 10.1109/TLT.2017.274017
@@ -1086,7 +1018,6 @@ Background: We anticipated that in dyads with discrepant knowledge, partners wil
 Observation: Although a significant difference between conditions did not transpire, there was a significant correlation between knowledge discrepancy and learning gain across conditions.
 Observation: The implications of these findings for effective learning group organization are discussed; implementation of the calculation tool in classrooms and MOOCs is proposed.
 
-
 # 28
 ### doi: 10.1109/TLT.2017.272388
 ## CCESK: A Chinese Character Educational System Based on Kinect
@@ -1102,7 +1033,6 @@ Observation: We conducted a survey which involved 90 students to try our propose
 Observation: Moreover, we have interviewed those 30 students who had tried our proposed system with some open-ended questions.
 Observation: The positive results show that the proposed system can promote students' experiences in learning Chinese characters.
 
-
 # 29
 ### doi: 10.1109/TLT.2017.272017
 ## Detecting Plagiarism Based on the Creation Process
@@ -1114,7 +1044,6 @@ Technique: Detection relies on comparing the histograms of multiple logs' comman
 Technique: A work is classified as plagiarism if its log deviates too much from logs of “honestly created” works or if its log is too similar to another log.
 Background: The technique supports the detection of plagiarism for digital outcomes that stem from unique tasks, such as theses and equal tasks such as assignments for which the same problem sets are solved by multiple students.
 Observation: Focusing on the latter case, we evaluate this approach using logs collected by an interactive development environment (IDE) from more than 60 students who completed three programming assignments.
-
 
 # 30
 ### doi: 10.1109/TLT.2017.272073
@@ -1132,7 +1061,6 @@ Observation: Second, there was added value in representing context-sensitive inf
 Observation: These findings provide useful insights into effective methods for representing and modeling temporal patterns of student engagement in an ITS, especially those related to language learning.
 Observation: Such models may be useful in the design and implementation of adaptive tutors in complex cognitive domains like language learning.
 
-
 # 31
 ### doi: 10.1109/TLT.2017.273177
 ## Design of Large Scale Virtual Equipment for Interactive HIL Control System Labs
@@ -1148,7 +1076,6 @@ Observation: This method is also suitable for other virtual applications.
 Observation: The system has been applied to a creative automatic control experiment course in the Harbin Institute of Technology.
 Observation: The assessment and student surveys show that the system is effective in student's learning.
 
-
 # 32
 ### doi: 10.1109/TLT.2017.272067
 ## Learning Analytics Dashboards to Support Adviser-Student Dialogue
@@ -1160,7 +1087,6 @@ Observation: We report on the iterative design process and evaluation results of
 Observation: We have found that the dashboard supports the current adviser-student dialogue, helps them motivate students, triggers conversation, and provides tools to add personalization, depth, and nuance to the advising session.
 Observation: It provides insights at a factual, interpretative, and reflective level and allows both adviser and student to take an active role during the session.
 
-
 # 33
 ### doi: 10.1109/TLT.2017.278765
 ## Linked Data in Education: A Survey and a Synthesis of Actual Research and Future Challenges
@@ -1169,7 +1095,6 @@ Observation: Linked Data principles and technologies are being investigated in v
 Background: In the Educational context, many studies are using Linked Data trying to solve problems of interoperability of educational data and resources, enriching educational content, and personalizing and recommending educational content and practices.
 Technique: This article presents a systematic mapping of proposals which have been adopting Linked Data to support education, and, based on analysis of these proposals, we discuss the tools, vocabularies, and datasets being used, providing a research landscape of the area.
 Observation: We also present challenges and trends which can foster future research in this area.
-
 
 # 34
 ### doi: 10.1109/TLT.2016.259477
@@ -1182,7 +1107,6 @@ Technique: It decided when to intervene and what to say using both log data and 
 Observation: Experiments with high school students showed that the non-cognitive learning companion increased students' learning and performance.
 Observation: However, it had no effect on performance during a transfer phase in which the learning companion, meta-tutor, and tutor were all absent.
 Background: The transfer phase null effect must be interpreted with caution due to low power, a possible floor effect, and other issues.
-
 
 # 35
 ### doi: 10.1109/TLT.2016.262330
@@ -1197,7 +1121,6 @@ Background: This paper presents a new design framework that describes an iterati
 Technique: The paper illustrates how this framework was used to inform the design of an intelligent tutoring system for undergraduate chemistry.
 Observation: An evaluation study suggests that the SUREC framework yielded an effective educational technology that enhances students' learning of content knowledge.
 
-
 # 36
 ### doi: 10.1109/TLT.2016.258216
 ## A Novel Group Engagement Score for Virtual Learning Environments
@@ -1210,7 +1133,6 @@ Technique: We tested these ideas using our own social learning platform that com
 Technique: This platform stimulates students' learning by means of two main reflective processes: participatory production and peer-review.
 Observation: We evaluated this platform and the learning approach it supports in an Object Oriented Programming course and identified interesting differences between group engagement and video ratings.
 Observation: Our principal conclusion is that greater teacher and student awareness of the ongoing activities and group engagement are needed.
-
 
 # 37
 ### doi: 10.1109/TLT.2016.259195
@@ -1226,7 +1148,6 @@ Technique: This architecture relies on the recent HTML5 and WebGL standards to o
 Observation: To ensure that the proposed architecture is suitable, we set requirements based on the literature, we compare it with other approaches, and we examine its scope, strengths, and weaknesses.
 Observation: Additionally, we illustrate it with a concrete hybrid lab and we evaluate its benefits and potential through educational experiments.
 
-
 # 38
 ### doi: 10.1109/TLT.2016.259346
 ## A Novel Wiki-Based Remote Laboratory Platform for Engineering Education
@@ -1237,7 +1158,6 @@ Technique: In this paper, we propose a new software architecture to create a nov
 Technique: This platform is implemented based on a unified framework for remote laboratory development and an open source wiki software package, MediaWiki.
 Observation: To illustrate the effectiveness of this platform, two remote experiments, Smart Vibration Platform (SVP) and Proportional-Integral-Derivative (PID) motor speed control, are integrated into this platform.
 Observation: This new wiki-based remote laboratory has been used for teaching Mechanical Engineering courses and creating students' assignments at the University of Houston.
-
 
 # 39
 ### doi: 10.1109/TLT.2016.263212
@@ -1254,7 +1174,6 @@ Observation: The tool is further evaluated in the delivery of a course module.
 Observation: The analysis and user feedback indicated that the tool provides accurate information and helpful support for MULE management.
 Observation: As the final phase of the research, training environments were developed for both basic and advanced OpenSim MULE management.
 Observation: Evaluations of their usability and perceived educational value were carried out with participants ($(\mathrm(N\,= \,68))$); the outcomes suggest that training for advanced MULE management is more useful for all users, without requiring more time or effort, regardless of the degree of complexity of the MULE being designed.
-
 
 # 40
 ### doi: 10.1109/TLT.2016.259953
@@ -1274,7 +1193,6 @@ Observation: In addition, all four teachers agreed that the robot patient was su
 Observation: The results also show that the proposed robot patient is more challenging than the current method, which employs a healthy person to simulate the patient.
 Observation: Significant skill improvement (p < 0.01) was observed in the experimental group when transferring the robot patient.
 
-
 # 1
 ### 10.1109/TPAMI.2019.2952095
 ## Learning to Localize Sound Sources in Visual Scenes: Analysis and Applications
@@ -1291,7 +1209,6 @@ Observation: We show that the false conclusion can be effectively corrected even
 Observation: We present the versatility of the learned audio and visual embeddings on the cross-modal content alignment.
 Observation: We incorporate this proposed algorithm into sound saliency based automatic camera view panning in 360 degree videos.
 
-
 # 2
 ### 10.1109/TPAMI.2019.2952114
 ## InLoc: Indoor Visual Localization with Dense Matching and View Synthesis
@@ -1304,9 +1221,7 @@ Observation: Second, we release a new dataset with reference 6DoF poses for larg
 Technique: Query photographs are captured by mobile phones at a different time than the reference 3D map, thus presenting a realistic indoor localization scenario.
 Observation: Third, we demonstrate that our method significantly outperforms current state-of-the-art indoor localization approaches on this new challenging data.
 
-
 # Code and data are publicly available.
-
 
 # 3
 ### 10.1109/TPAMI.2019.2952353
@@ -1320,7 +1235,6 @@ Technique: We tackle this challenge by applying domain randomization, i.e., rand
 Technique: We propose an algorithm called Simulation-based Policy Optimization with Transferability Assessment (SPOTA) which uses an estimator of the SOB to formulate a stopping criterion for training.
 Technique: The introduced estimator quantifies the over-fitting to the set of domains experienced while training.
 Observation: Our experimental results on two different second order nonlinear systems show that the new simulation-based policy search algorithm is able to learn a control policy exclusively from a randomized simulator, which can be applied directly to real systems without any additional training.
-
 
 # 4
 ### 10.1109/TPAMI.2019.2952096
@@ -1336,7 +1250,6 @@ Technique: Furthermore, to compute quantization results with given amount of val
 Observation: The algorithms proposed are tested under three data scenarios and their computational performance, including information loss, time consumption and distribution of values of sparse vectors are compared.
 Observation: The paper offers a new perspective to probe the area of quantization, and the algorithms proposed are superior especially under bit-width reducing scenarios, when the required post-quantization resolution is not significantly lower than the original scalar.
 
-
 # 5
 ### 10.1109/TPAMI.2019.2951664
 ## Affine Invariants of Vector Fields
@@ -1350,7 +1263,6 @@ Technique: To measure the similarity between the template and the field patch, w
 Technique: They are designed from the vector field moments.
 Observation: It is demonstrated by experiments on real data from fluid mechanics that they perform significantly better than potential competitors.
 
-
 # 6
 ### 10.1109/TPAMI.2019.2951667
 ## A Temporally-Aware Interpolation Network for Video Frame Inpainting
@@ -1362,7 +1274,6 @@ Technique: The prediction module makes two intermediate predictions of the missi
 Technique: The interpolation module blends the intermediate predictions by using time information and hidden activations from the video prediction module to resolve disagreements between the predictions.
 Observation: Our experiments demonstrate that our approach produces smoother and more accurate results than state-of-the-art methods for general video inpainting, frame interpolation, and video prediction.
 
-
 # 7
 ### 10.1109/TPAMI.2019.2946796
 ## SpaRTA Tracking across occlusions via partitioning of 3D clouds of points
@@ -1371,7 +1282,6 @@ Observation: Any 3D tracking algorithm has to deal with occlusions: multiple tar
 Observation: Here, we present a novel tracking method that addresses the problem of occlusions within large groups of featureless objects by means of three steps: i) it represents each target as a cloud of points in 3D; ii) once a 3D cluster corresponding to an occlusion occurs, it defines a partitioning problem by introducing a cost function that uses both attractive and repulsive spatio-temporal proximity links; iii) it minimizes the cost function through a semi-definite optimization technique specifically designed to cope with the presence of multi-minima landscapes.
 Technique: The algorithm is designed to work on 3D data regardless of the experimental method used: multi--camera systems, lidars, radars and RGB-D systems.
 Observation: By performing tests on public data-sets, we show that the new algorithm produces a significant improvement over the state-of-the-art tracking methods, both by reducing the number of identity switches and by increasing the accuracy of the estimated positions of the targets in real space.
-
 
 # 8
 ### 10.1109/TPAMI.2019.2950923
@@ -1385,7 +1295,6 @@ Observation: More specifically, we wonder whether image classification performan
 Observation: In this paper, we empirically study those problems for nine kinds of degraded images - hazy images, motion-blurred images, fish-eye images, underwater images, low resolution images, salt-and-peppered images, images with white Gaussian noise, Gaussian-blurred images and out-of-focus images.
 Observation: We expect this work can draw more interests from the community to study the classification of degraded images.
 
-
 # 9
 ### 10.1109/TPAMI.2019.2950631
 ## Ideals of the Multiview Variety
@@ -1397,7 +1306,6 @@ Background: In the computer vision literature, many sets of (determinantal) poly
 Observation: We establish precise algebraic relationships between the multiview ideal and these various ideals.
 Observation: When the camera foci are noncoplanar, we prove that the ideal of bifocal polynomials saturate to give the multiview ideal.
 Observation: Finally, we prove that all the ideals we consider coincide when dehomogenized, to cut out the space of finite images.
-
 
 # 10
 ### 10.1109/TPAMI.2019.2948619
@@ -1413,7 +1321,6 @@ Observation: We show through theory and numerical experiments that under the mod
 Observation: Via simulation experiments, we demonstrate that the joint embedding method produces features which lead to state of the art performance in classifying graphs.
 Observation: Applying the joint embedding method to human brain graphs, we find it extracts interpretable features with good prediction accuracy in different tasks.
 
-
 # 11
 ### 10.1109/TPAMI.2019.2950025
 ## Visual Semantic Information Pursuit: A Survey
@@ -1427,7 +1334,6 @@ Background: Since it helps to enhance the accuracy and the consistency of the re
 Observation: Surprisingly, a comprehensive review for this exciting area is still lacking.
 Observation: In this survey, we present a unified theoretical paradigm for all these methods, followed by an overview of the major developments and the future trends in each potential direction.
 Observation: The common benchmark datasets, the evaluation metrics and the comparisons of the corresponding methods are also introduced.
-
 
 # 12
 ### 10.1109/TPAMI.2019.2949299
@@ -1444,7 +1350,6 @@ Technique: The TTP codes 3D topology by projecting the 3D minutiae onto multiple
 Observation: Comprehensive experimental results demonstrate that our method outperforms the state-of-the-art methods in terms of both reconstruction and recognition accuracy.
 Observation: Thanks to the significantly short running time, our method is applicable to practical applications.
 
-
 # 13
 ### 10.1109/TPAMI.2019.2950198
 ## Exploring Explicit Domain Supervision for Latent Space Disentanglement in Unpaired Image-to-Image Translation
@@ -1459,7 +1364,6 @@ Observation: Extensive experiments on multiple facial attribute translation, mul
 Observation: In addition, we can transfer the domain-specific feature extractor obtained on the Facescrub dataset with domain supervision information to unseen domains, such as faces in the CelebA dataset.
 Observation: We also succeed in achieving conditional translation with any two images in CelebA, while previous models like StarGAN cannot handle this task.
 
-
 # 14
 ### 10.1109/TPAMI.2019.2950317
 ## Bilinear image translation for temporal analysis of photo collections
@@ -1472,7 +1376,6 @@ Observation: We also show that it can be inserted in a recent adversarial image 
 Observation: We apply our model to a challenging collection of more than 3,000 cars manufactured between 920 and 2000 and a dataset of high school yearbook portraits from 930 to 2009.
 Observation: This allows us, for a given new input image, to generate a "history-lapse video" revealing changes over time by simply varying the latent variable corresponding to time.
 Observation: We show that by analyzing the generated history-lapse videos we can identify object deformations across time, extracting interesting changes in visual style over decades.
-
 
 # 15
 ### 10.1109/TPAMI.2019.2949414
@@ -1489,7 +1392,6 @@ Observation: Compared to the state-of-the-art, our approach shows better perform
 Observation: MX-LSTM is particularly effective when people move slowly, i.e. the most challenging scenario for all other models.
 Observation: The proposed approach also allows for accurate predictions on a longer time horizon.
 
-
 # 16
 ### 10.1109/TPAMI.2019.2949302
 ## Corner detection using second-order generalized Gaussian directional derivative representations
@@ -1501,7 +1403,6 @@ Technique: The second-order generalized Gaussian directional derivative represen
 Technique: A number of properties for edges and corners are discovered which enable us to propose a new image corner detection method.
 Technique: Finally, the criteria on detection accuracy and average repeatability under affine image transformation, JPEG compression, and noise degradation, and the criteria on region repeatability are used to evaluate the proposed detector against nine state-of-the-art methods.
 Observation: The experimental results show that our proposed detector outperforms all the other tested detectors.
-
 
 # 17
 ### 10.1109/TPAMI.2019.2949562
@@ -1517,7 +1418,6 @@ Technique: To this end, we develop the confidence weighting schemes in the viewp
 Observation: These schemes effectively reduce the confusion caused by the noisy data and thus increase the chances for obtaining more reliable 3D object shapes.
 Observation: Comprehensive experiments on the challenging PASCAL VOC benchmark show that our framework achieves comparable performance of the state-of-the-art methods that use expensive manual segmentation annotations.
 
-
 # 18
 ### 10.1109/TPAMI.2019.2948348
 ## Adversarial Margin Maximization Networks
@@ -1531,9 +1431,7 @@ Technique: It encourages a large margin in the input space, just like the suppor
 Technique: With a differentiable formulation of the perturbation, we train the regularized DNNs simply through back-propagation in an end-to-end manner.
 Observation: Experimental results on various datasets (including MNIST, CIFAR-10/100, SVHN and ImageNet) and different DNN architectures demonstrate the superiority of our method over previous state-of-the-arts.
 
-
 # Code and models for reproducing our results will be made publicly available.
-
 
 # 19
 ### 10.1109/TPAMI.2019.2948352
@@ -1546,7 +1444,6 @@ Observation: We prove that the optimal bound w.r.t. the degree of isometry is at
 Technique: We present both algorithms of strict and approximate OrthDNNs, and for the later ones we propose Singular Value Bounding, which performs as well as strict OrthDNNs but at a much lower computational cost.
 Technique: We also propose algorithms to make compatible use of batch normalization with OrthDNNs.
 Observation: Extensive comparative studies show the efficacy of OrthDNNs.
-
 
 # 20
 ### 10.1109/TPAMI.2019.2948011
@@ -1562,7 +1459,6 @@ Background: These results motivated us to collect a new dataset that is 20 times
 Technique: In addition, we propose a stacked Convolutional Neural Network architecture that efficiently trains on patch level shadow examples while incorporating image level semantic information.
 Observation: Our proposed pipeline, trained on recovered labels, performs at state-of-the art level.
 
-
 # 21
 ### 10.1109/TPAMI.2019.2947440
 ## Interpreting the Rhetoric of Visual Advertisements
@@ -1573,7 +1469,6 @@ Observation: We make available a dataset of 64,832 image ads and 3,477 video ads
 Technique: We develop methods that use multimodal cues, i.e. both visuals and slogans, for both the image and video domains.
 Technique: Our methods rely on finding poignant content spatially and temporally.
 Technique: We also examine the creative story construction in ads: for videos, we learn to predict when the climax occurs (if any), and how effective the story is; for images, we analyze how object transformations in ads metaphorically depict product properties.
-
 
 # 22
 ### 10.1109/TPAMI.2019.2947374
@@ -1586,7 +1481,6 @@ Technique: In practice, we further extend CSPN in two aspects: 1) take a sparse 
 Observation: For the tasks of depth completion, we experimented the proposed CPSN conjunct algorithms over NYU v and KITTI datasets, where we show that our proposed algorithms not only produce high quality (e.g., 30% more reduction in depth error), but also run faster (e.g.,  to 5 × faster) than previous SOTA spatial propagation network.
 Observation: We also evaluated our stereo matching algorithm on the Scene Flow and KITTI Stereo datasets, and rank 1st on both the KITTI Stereo 01 and 015 benchmarks, which demonstrates the effectiveness of the proposed module again.
 
-
 # 23
 ### 10.1109/TPAMI.2019.2947427
 ## Appearance and Pose-Conditioned Human Image Generation using Deformable GANs
@@ -1598,7 +1492,6 @@ Technique: Moreover, a nearest-neighbour loss is proposed instead of the common 
 Observation: Quantitative and qualitative results, using common datasets and protocols recently proposed for this task, show that our approach is competitive with respect to the state of the art.
 Observation: Moreover, we conduct an extensive evaluation using off-the-shell person re-identification (Re-ID) systems trained with person-generation based augmented data, which is one of the main important applications for this task.
 Observation: Our experiments show that our Deformable GANs can significantly boost the Re-ID accuracy and are even better than data-augmentation methods specifically trained using Re-ID losses.
-
 
 # 24
 ### 10.1109/TPAMI.2019.2947048
@@ -1615,9 +1508,7 @@ Observation: Moreover, in contrast to many volumetric approaches, ours can recon
 Observation: We demonstrate our approach in a number of experiments, showing that it produces reconstructions that are competitive with the state-of-the-art.
 Observation: We also discuss its advantages and limitations.
 
-
 # The algorithm (excluding loop closure functionality) is available as open source at https://github.com/puzzlepaint/surfelmeshing.
-
 
 # 25
 ### 10.1109/TPAMI.2019.2946806
@@ -1630,7 +1521,6 @@ Technique: For dense depth reconstruction, we present a convolutional neural net
 Technique: Rather than directly estimating depth or optical flow correspondence from image pairs as done in many previous deep learning methods, DPSNet takes a plane sweep approach that involves building a cost volume from deep features using the plane sweep algorithm, regularizing the cost volume, and regressing the depth map from the cost volume.
 Technique: The cost volume is constructed using a differentiable warping process that allows for end-to-end training of the network.
 Observation: Through the effective incorporation of conventional multiview stereo concepts within a deep learning framework, the proposed method achieves state-of-the-art results on a variety of challenging datasets.
-
 
 # 26
 ### 10.1109/TPAMI.2019.2946823
@@ -1646,7 +1536,6 @@ Observation: It is a novel direction as it contains 6K team sports videos with 0
 Observation: Furthermore, as previous metrics, DO NOT cope with fine-grained sports narrative task well, we hence develop a novel evaluation metric named Fine-grained Captioning Evaluation (FCE), which measures how accurate the generated linguistic description reflects fine-grained action details as well as the overall spatio-temporal interactional structure.
 Observation: Extensive experiments on our SVN dataset have demonstrated the effectiveness of the proposed framework for fine-grained team sports video auto-narrative.
 
-
 # 27
 ### 10.1109/TPAMI.2019.2946370
 ## Bayesian Joint Matrix Decomposition for Data Integration with Heterogeneous Noise
@@ -1661,7 +1550,6 @@ Technique: To this end, we propose a joint matrix decomposition framework (BJMD)
 Technique: We develop two algorithms to solve this model: one is a variational Bayesian inference algorithm, which makes full use of the posterior distribution; and another is a maximum a posterior algorithm, which is more scalable and can be easily paralleled.
 Observation: Extensive experiments on synthetic and real-world datasets demonstrate that BJMD is superior or competitive to the state-of-the-art methods.
 
-
 # 28
 ### 10.1109/TPAMI.2019.2946567
 ## Sinusoidal Sampling Enhanced Compressive Camera for High Speed Imaging
@@ -1674,7 +1562,6 @@ Technique: The sinusoidal codes designed for these groups would shift their freq
 Observation: Correspondingly, the reconstruction successfully separate coded measurements of different groups and recovers frames within each group.
 Technique: Besides, we also solve the implementation problem of insufficient gray scale spatial light modulation speed, and build a prototype achieving 2000 fps reconstruction with a 5.6 fps camera (the actual compression ratio is 0.009).
 Observation: The extensive experiments validate the proposed approach.
-
 
 # 29
 ### 10.1109/TPAMI.2019.2946159
@@ -1689,7 +1576,6 @@ Observation: The disparity magnitude shows the relationship among depth from ste
 Observation: For disparity analysis, we present the real response, imaginary response, magnitude response, and angle response, which are represented by the three-dimensional volume.
 Observation: Experimental results on synthetic and real light field images show that the real and magnitude responses of the proposed depth model are valid for local disparity estimation.
 
-
 # 30
 ### 10.1109/TPAMI.2019.2945942
 ## A review of domain adaptation without target labels
@@ -1702,7 +1588,6 @@ Technique: Feature-based methods revolve around on mapping, projecting and repre
 Technique: Inference-based methods incorporate adaptation into the parameter estimation procedure, for instance through constraints on the optimization procedure.
 Observation: Additionally, we review a number of conditions that allow for formulating bounds on the cross-domain generalization error.
 Observation: Our categorization highlights recurring ideas and raises questions important to further research.
-
 
 # 31
 ### 10.1109/TPAMI.2019.2945574
@@ -1718,7 +1603,6 @@ Background: However, this approximate subspace differs from the full-rank subspa
 Technique: Matrix perturbation theory is used to theoretically evaluate how far approximate subspace deviates from the full-rank one for a given value of approximation rank.
 Technique: Finally, spectral clustering is performed on the approximate subspace to identify the clusters.
 Observation: Experimental results on several real-life cancer and benchmark data sets demonstrate that the proposed algorithm significantly and consistently outperforms state-of-the-art integrative clustering approaches.
-
 
 # 32
 ### 10.1109/TPAMI.2019.2944806
@@ -1736,7 +1620,6 @@ Technique: Subsequently, a quality enhancement subnet fuses the non-PQF and comp
 Technique: Also, PQF quality is enhanced in the same way.
 Observation: Finally, experiments validate the effectiveness and generalization ability of our MFQE approach in advancing the state-of-the-art quality enhancement of compressed video.
 
-
 # 33
 ### 10.1109/TPAMI.2019.2944808
 ## SEWA DB: A Rich Database for Audio-Visual Emotion and Sentiment Research in the Wild
@@ -1749,7 +1632,6 @@ Technique: Subjects were recorded in two different contexts: while watching adve
 Technique: The database includes rich annotations of the recordings in terms of facial landmarks, facial action units (FAU), various vocalisations, mirroring, and continuously valued valence, arousal, liking, agreement, and prototypic examples of (dis)liking.
 Background: This database aims to be an extremely valuable resource for researchers in affective computing and automatic human sensing and is expected to push forward the research in human behaviour analysis, including cultural studies.
 Observation: Along with the database, we provide extensive baseline experiments for automatic FAU detection and automatic valence, arousal and (dis)liking intensity estimation.
-
 
 # 34
 ### 10.1109/TPAMI.2019.2945027
@@ -1764,7 +1646,6 @@ Observation: Such geometric features vary near the occlusion regions and indicat
 Technique: To train a feasible network, we propose a novel normalization operation based on a group of views in the feature maps, design a stage-wise loss function, and develop the multi-range training strategy to further improve the performance.
 Observation: Evaluations are conducted on a number of light field datasets including real-world scenes, synthetic data, and microscope light fields.
 Observation: The proposed method achieves superior performance and less execution time comparing with other state-of-the-art schemes.
-
 
 # 35
 ### 10.1109/TPAMI.2019.2944597
@@ -1781,7 +1662,6 @@ Technique: In the second step, the graph is extended and the problem is solved b
 Observation: Experiments are performed for image search and person re-identification to illustrate the efficiency of SHaPE in image matching and retrieval.
 Observation: Although SHaPE is presented in the context of image retrieval, it can be applied, in general, to any problem involving the ranking of candidates based on multiple sets of scores.
 
-
 # 36
 ### 10.1109/TPAMI.2019.2944377
 ## Video Anomaly Detection With Sparse Coding Inspired Deep Neural Networks
@@ -1793,7 +1673,6 @@ Technique: Further, to reduce the computational cost in alternatively updating t
 Technique: We further improve sRNN-AE in the following aspects: i) we propose to learn a data-dependent similarity measurement between neighboring frames in sRNN-AE; ii) we reduce the depth of the sRNN in sRNN-AE; iii) we conduct temporal pooling over the appearance features of several consecutive frames for motion characterization.
 Technique: We also build a large-scale anomaly detection dataset for performance evaluation.
 Observation: Extensive experiments on both a toy dataset under controlled settings and real datasets demonstrate the effectiveness of our sRNN-AE method for anomaly detection.
-
 
 # 37
 ### 10.1109/TPAMI.2019.2943860
@@ -1808,7 +1687,6 @@ Observation: Without extra parameters, the proposed method controls the bias-var
 Observation: Moreover, we show that each sub-problem in the proposed method has less Rademacher Complexity and thus is easier to optimize.
 Observation: Extensive experiments on several diverse and challenging tasks including crowd counting, personality analysis, age estimation, and image super-resolution demonstrate the superiority over challenging baselines.
 
-
 # 38
 ### 10.1109/TPAMI.2019.2943456
 ## Interpretable Visual Question Answering by Reasoning on Dependency Trees
@@ -1819,7 +1697,6 @@ Background: In this paper, to better align image and language domains in diverse
 Technique: This network consists of three collaborative modules: i) an attention module to exploit the local visual evidence for each word parsed from the question, ii) a gated residual composition module to compose the previously mined evidence, and iii) a parse-tree-guided propagation module to pass the mined evidence along the parse tree.
 Technique: Our PTGRN is thus capable of building an interpretable VQA system that gradually derives the image cues following a question-driven parse-tree reasoning route.
 Observation: Experiments on relational datasets demonstrate the superiority of our PTGRN over current state-of-the-art VQA methods.
-
 
 # 39
 ### 10.1109/TPAMI.2019.2942928
@@ -1834,7 +1711,6 @@ Technique: In addition, we propose to stack twice this network in order to form 
 Technique: This cycle approach can be interpreted as a form of data-augmentation since, at training time, the network learns both from the training set images (in the forward half-cycle) but also from the synthesized images (in the backward half-cycle).
 Technique: The architecture is jointly trained with adversarial learning.
 Observation: Extensive experiments on the publicly available datasets KITTI, Cityscapes and ApolloScape demonstrate the effectiveness of the proposed model which outperforms previous unsupervised deep learning methods for depth prediction.
-
 
 # 40
 ### 10.1109/TPAMI.2019.2942592
@@ -1851,5 +1727,4 @@ Observation: The student and the teacher aim to fool the discriminator via adver
 Observation: By optimizing the adversarial and the distillation losses simultaneously, the student and the teacher can learn the real data distribution.
 Technique: To accelerate the training, we propose to obtain low-variance gradient updates from the discriminator using a Gumbel-Softmax trick.
 Observation: We conduct extensive experiments to demonstrate the superiority of the proposed adversarial distillation under both accuracy and training speed.
-
 
