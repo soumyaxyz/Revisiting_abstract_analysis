@@ -244,6 +244,6 @@ def similarity(input_list, output_list):
 
 output(output_folder)
 
-matching_percent = similarity(categories, output_categories)
+accuracy = similarity(categories, output_categories)
 
-print("Similarity Percentage:", matching_percent)
+print("Similarity Percentage:", accuracy)
