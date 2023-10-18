@@ -8,9 +8,11 @@ This project is designed to automate the analysis of scientific research abstrac
 
 The project directory is organized as follows:
 
-analysis.py: The main script for abstract analysis and categorization.
-input_folder/: Folder containing input research abstracts (text files).
-output_folder/: Folder where the categorized abstracts obtained from the OpenAI API will be saved.
+* analysis.py: The main script for abstract analysis and categorization.
+
+* input_folder/: Folder containing input research abstracts (text files).
+
+* output_folder/: Folder where the categorized abstracts obtained from the OpenAI API will be saved.
 
 ## Results
 
